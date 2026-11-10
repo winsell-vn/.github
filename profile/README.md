@@ -1,4 +1,8 @@
 <p align="center">
+  <img src="./assets/avatar.png" width="96" alt="WinSell mark" />
+</p>
+
+<p align="center">
   <img src="./assets/header.svg" width="100%" alt="WinSell — AI and SEO/GEO/AEO infrastructure" />
 </p>
 
@@ -71,6 +75,7 @@ web        JSON-LD · llms.txt · sitemap · canonical · hreflang
 - Security reports → [private advisories](https://github.com/winsell-vn/social-hive/security/advisories/new) or `contact@winsell.vn`
 - Contributions → see [CONTRIBUTING.md](https://github.com/winsell-vn/.github/blob/main/CONTRIBUTING.md)
 - Code of conduct → see [CODE_OF_CONDUCT.md](https://github.com/winsell-vn/.github/blob/main/CODE_OF_CONDUCT.md)
+- Governance → see [GOVERNANCE.md](https://github.com/winsell-vn/.github/blob/main/GOVERNANCE.md)
 
 ---
 
