@@ -18,8 +18,11 @@ profile/
 workflow-templates/              starter workflows offered when creating a repo
   *.yml
   *.properties.json              metadata for the starter workflow menu
+scripts/
+  validate-defaults.py           checks that every default file is well formed
 CONTRIBUTING.md                  default contribution guide
 CODE_OF_CONDUCT.md               default code of conduct
+GOVERNANCE.md                   default governance and decision-making rules
 SECURITY.md                      default vulnerability disclosure policy
 SUPPORT.md                       default support guide
 ```
