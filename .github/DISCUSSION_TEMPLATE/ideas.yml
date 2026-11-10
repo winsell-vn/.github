@@ -1,0 +1,33 @@
+name: Ideas
+description: Propose a feature, a direction for a project, or a way to improve the tooling.
+title: "[idea] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Ideas are proposals, not commitments. Describe the problem before the
+        solution so others can argue with the problem instead of the syntax.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: Who is blocked today, and by what?
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal
+      description: What you suggest, and how it would work end to end.
+    validations:
+      required: true
+
+  - type: textarea
+    id: tradeoffs
+    attributes:
+      label: Trade-offs and alternatives
+      description: What this costs, and what you considered instead.
+    validations:
+      required: false
