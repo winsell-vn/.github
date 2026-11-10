@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Support question
+    url: https://github.com/winsell-vn/.github/blob/main/SUPPORT.md
+    about: How to get help, and what to include in a support request.
+  - name: Security vulnerability
+    url: https://github.com/winsell-vn/.github/blob/main/SECURITY.md
+    about: Report privately. Do not open a public issue for a vulnerability.

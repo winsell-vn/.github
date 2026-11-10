@@ -1,0 +1,19 @@
+# Default code owners for the WinSell organization.
+#
+# Repository-specific CODEOWNERS files override this one.
+# Syntax: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+# Default owner for everything not matched below.
+* @winsell-vn/maintainers
+
+# Workflows, CI and release automation.
+/.github/workflows/ @winsell-vn/maintainers
+/.github/dependabot.yml @winsell-vn/maintainers
+
+# Database schema — changes need a migration and a second pair of eyes.
+**/prisma/schema.prisma @winsell-vn/maintainers
+
+# Security-sensitive areas.
+/Backend/src/modules/auth/ @winsell-vn/maintainers
+/Backend/src/modules/upload/ @winsell-vn/maintainers
+**/.env* @winsell-vn/maintainers

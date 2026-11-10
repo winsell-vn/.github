@@ -1,0 +1,7 @@
+{
+  "name": "Dependency check",
+  "description": "Report outdated dependencies on a weekly schedule.",
+  "iconName": "dependencies",
+  "categories": ["General"],
+  "filePatterns": ["package.json$", "package-lock.json$", "pnpm-lock.yaml$", "yarn.lock$"]
+}

@@ -1,0 +1,79 @@
+name: Bug report
+description: Something in the product does not work as documented.
+title: "[bug] "
+labels: ["bug", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report this.
+        Do not use this form for security vulnerabilities — see [SECURITY.md](https://github.com/winsell-vn/.github/blob/main/SECURITY.md).
+
+  - type: input
+    id: repository
+    attributes:
+      label: Affected repository
+      placeholder: social-hive
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: Version or commit
+      placeholder: v1.0.0
+    validations:
+      required: true
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Affected area
+      options:
+        - API / backend
+        - Web / frontend
+        - Database / migrations
+        - AI pipeline
+        - SEO / GEO / AEO output
+        - Admin panel
+        - Deployment / infrastructure
+        - Documentation
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened
+      description: What did you observe, and what did you expect instead?
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+      value: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Error output
+      description: Full error message or log excerpt. Redact API keys, tokens and passwords.
+      render: shell
+    validations:
+      required: false
+
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      placeholder: Ubuntu 24.04 · Node 22 · MySQL 8 · Redis 7
+    validations:
+      required: false

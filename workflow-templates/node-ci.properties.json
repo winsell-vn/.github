@@ -1,0 +1,7 @@
+{
+  "name": "Node.js CI",
+  "description": "Install, build and test a Node.js project on every push and pull request.",
+  "iconName": "node-js",
+  "categories": ["JavaScript", "TypeScript"],
+  "filePatterns": ["package.json$", "package-lock.json$"]
+}
